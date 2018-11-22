@@ -1,0 +1,4 @@
+bg - https://mgcreativedesign.files.wordpress.com/2014/11/website-design-background.png
+palettes - https://cdn.shopify.com/s/files/1/0533/2089/files/online-color-palette-generators-colorhunt.jpg?18024790279515094958
+HTML Glossary Reference - https://www.w3.org/TR/html52/
+Scales https://commons.wikimedia.org/wiki/File:Balanced_scale_of_Justice.svg

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel = "stylesheet" type = "text/css" href = "css.css" />
+	<title>Learn2Web - Divs and Containers</title>	
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+</head>
+<body>
+<div class="navBar">
+	<ul>
+		<li class="Home"><a href="index.html">Home</a></li>
+		<li class="Create"><a href="Create.html">Create</a></li>
+		<li class="Design"><a href="Design.html">Design</a></li>
+		<li class="Publishing"><a href="Publishing.html">Publishing</a></li>
+		<li class="Legal"><a href="Legal.html">Legal</a></li>
+		<li class="Contact"><a href="Contact.html">Contact</a></li>
+	</ul>
+</div>
+<div class="wrapper">
+<div class="pageHeader">
+	<div class="articleHead">
+		<h1>Divs and Containers</h1>
+		<h3>Page structure and segmentation rules</h3>
+	</div>
+	
+	<div class="article">
+		<p>
+		HTML structure is based on two concepts; the first being cascade rendering. Wherein the order the elements appear in the HTML document dictates the order they appear on the page. Elements that are added first are rendered first. The second concept is DIV elements. These are invisible elements used to aid in structure - almost like a box. They can be manipulated to be any size and shape and can be arranged on a page.
+		<br/></br>
+		Below is a <em>wireframe</em> of a sample website. Hover over named elements to see the individual divs and see the code to reproduce it.
+		</p>
+	</div>
+<img alt="image of a pencil" src="img/pencil.png">
+</div>
+<div id="divWrapper">
+<div id="divNavBar" >
+	<h1>NavBar</h1>
+</div>
+<div id="divHeader">
+	<h1>Header</h1>
+</div>
+<div class="divArticle">
+	<h1>HTML</h1>
+	<pre>
+	
+	&lt;div id="divWrapper"&gt;
+	&lt;div id="divNavBar" &gt;
+		&lt;h1&gt;NavBar&lt;/h1&gt;
+	&lt;/div&gt;
+	&lt;div id="divHeader"&gt;
+		&lt;h1&gt;Header&lt;/h1&gt;
+	&lt;/div&gt;
+	&lt;div class="divArticle"&gt;
+		&lt;h1&gt;HTML&lt;/h1&gt;
+	&lt;/div&gt;
+	&lt;div class="divArticle"&gt;
+		&lt;h1&gt;CSS&lt;/h1&gt;
+	&lt;/div&gt;
+	&lt;div id="divFooter"&gt;
+		&lt;h1&gt;Footer&lt;/h1&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	</pre>
+</div><div class="divArticle">
+	<h1>CSS</h1>
+	<pre>
+	
+	#divHeader,#divNavBar,.divArticle,#divFooter
+	{
+		float:left;
+	}
+	#divHeader {
+		width: 80%;
+		height: 10%;
+	}
+	#divNavBar {
+		width:20%;
+		height: 100%;
+	}
+	.divArticle {
+		width:80%;
+		height:80%;
+	}
+	#divFooter {
+		width:80%;
+		height: 10%;
+	}
+	</pre>
+</div>
+<div id="divFooter">
+	<h1>Footer</h1>
+</div>
+</div>
+</div>
+</body>
+</html>

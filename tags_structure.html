@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel = "stylesheet" type = "text/css" href = "css.css" />
+	<title>Learn2Web - Tags and Structure</title>	
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+</head>
+<body>
+<div class="navBar">
+	<ul>
+		<li class="Home"><a href="index.html">Home</a></li>
+		<li class="Create"><a href="Create.html">Create</a></li>
+		<li class="Design"><a href="Design.html">Design</a></li>
+		<li class="Publishing"><a href="Publishing.html">Publishing</a></li>
+		<li class="Legal"><a href="Legal.html">Legal</a></li>
+		<li class="Contact"><a href="Contact.html">Contact</a></li>
+	</ul>
+</div>
+<div class="wrapper">
+<div class="pageHeader">
+	<div class="articleHead">
+		<h1>Tags & Structure</h1>
+		<h3>Basic Structure</h3>
+	</div>
+	
+	<div class="article">
+		<p>
+			Here we will detail the very basic HTML tags including the basic required tags for all webpages and a few quality of life inclusions; these include commenting and naming conventions for widespread accesibility to all future developers. This is a very important concept in web design - code must be legible to people other than yourself. Therefore code must be either self-documenting, wherein the existence of elements and their names denote their function (eg using "navBar" instead of "element2") or documented. To document we use comments shown below.
+		</p>
+	</div>
+</div>
+<div class="code_wrapper">
+	<div class="code_detail">
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+	&lt;title&gt;Webpage Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;p&gt;
+	Paragraph Content
+	&lt;/p&gt;
+&lt;/body&gt;
+		
+&lt;/html&gt;
+</pre>
+	</div>
+	<div class="code_desc">
+<pre>
+This is a basic design for a webpage
+
+It includes &lt;!DOCTYPE html&gt; to denote it is a html document 
+and also includes the other main tags present in every webpage
+
+Notice that all tags open with &lt;&gt; and close with &lt;/&gt;
+This is how html represents single elements and they function
+just like parenthesis do in a written language. 
+
+Each bracket must be closed somewhere however you can
+nest brackets within each other
+
+</pre>
+	</div>
+	<div class="code_detail">
+<pre>
+&lt;!--Commenting--&gt;
+&lt;!--
+
+This is
+a multi-line
+comment
+
+--&gt;
+
+class="className"
+id="idName"
+
+	</div>
+	<div class="code_desc">
+<pre>
+There are several good practices to html coding, and coding in general
+Here we see the example syntax of a comment; this is used so the developer can document their code
+and also so that it is not rendered in the final page.
+
+Since html automatically detects brackets in it's code as special elements
+it can be difficult to display them in general written use.
+Therefore we use &amp;lt; and &amp;gt; to show brackets
+
+Also there is the different uses of ID and CLASS elements.
+I will further explore their usefulness in the CSS/HTML parts of this guide
+however as good practice it is generally recommended that IDs are only used on one element
+and classes are used on multiple elements.
+Also, you should follow this naming structure "lowercaseUppercase" for ease of reading/referencing
+</pre>
+	</div>
+</div>
+</div>	
+
+</body>
+</html>
+
+<!-- Code Wrapper MASTER
+	<div class="code_detail">
+<pre>
+
+</pre>
+	</div>
+	<div class="code_desc">
+<pre>
+	
+</pre>
+	</div>
+-->
